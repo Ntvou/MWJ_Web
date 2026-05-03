@@ -1,0 +1,145 @@
+/* Dashboard.css - Simple styling for a novice programmer */
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Left Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #999999; /* Grey from image */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.logo-box {
+  background-color: #4a4a4a;
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.menu-section {
+  margin-bottom: 30px;
+}
+
+.menu-label {
+  font-size: 13px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.sign-out-btn {
+  margin-top: auto;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+/* Main Area */
+.main-area {
+  flex: 1;
+  background-color: #dcdcdc; /* Lighter grey body */
+  display: flex;
+  flex-direction: column;
+}
+
+.header-nav {
+  height: 70px;
+  background-color: #b0b0b0; /* Header grey */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.search-bar {
+  background-color: #cecece;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 400px;
+  color: #333;
+}
+
+.search-bar::placeholder {
+  color: #f0f0f0;
+}
+
+.notification-bell {
+  background-color: #cecece;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.content-body {
+  padding: 40px;
+}
+
+.page-title {
+  font-size: 32px;
+  margin: 0 0 25px 0;
+  font-weight: 500;
+}
+
+/* Simple list styling */
+.todo-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.add-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
